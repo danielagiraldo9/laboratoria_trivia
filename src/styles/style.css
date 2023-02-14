@@ -1,0 +1,54 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: gray; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+#trivia {
+    background: #FFDD33;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pregunta {
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+}
+
+.button {
+    background-color: #EF7424;
+    color: black;
+    width: 250px;
+    font-size: 20 px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    margin: 10px 110px 10px; 
+    outline: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: gray;
+}
+
+#progreso {
+    font-size: 20px;
+    text-align: center;
+}
